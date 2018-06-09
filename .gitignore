@@ -1,0 +1,7 @@
+*.py[oc]
+.*.swp
+*~
+*.html
+.tox
+.cache
+.pytest_cache
