@@ -154,3 +154,13 @@ texinfo_documents = [
      author, 'pylatest-demo', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+# -- Pylatest configuration --------------------------------------------------
+
+pylatest_project_id = "PLTDEMO"
+pylatest_export_content_type = "CDATA"
+pylatest_export_lookup_method = "custom"
+pylatest_valid_export_metadata = [
+    'casecomponent',
+    'caselevel',
+    ]
