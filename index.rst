@@ -3,18 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pylatest-demo's documentation!
-=========================================
+Welcome to pylatest-demo
+========================
+
+This is an example of Sphinx_/Pylatest_ project.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Test case structure:
+
+   foo/index.rst
+   bar/index.rst
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. _Sphinx: http://www.sphinx-doc.org/en/stable/index.html
+.. _Pylatest: https://pylatest.readthedocs.io/en/stable/
