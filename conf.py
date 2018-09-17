@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'pylatest-demo'
-copyright = u'2018, Martin Bukatovič'
-author = u'Martin Bukatovič'
+copyright = u'CC BY-SA 3.0'
+author = u'Martin Bukatovič and Fedora Quality Assurance'
 
 # The short X.Y version
 version = u''
