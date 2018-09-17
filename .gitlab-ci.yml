@@ -1,0 +1,9 @@
+stages:
+  - test
+
+py36:
+  image: python:3.6
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - sphinx-build -M linkcheck . _build
