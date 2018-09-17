@@ -3,6 +3,8 @@ Pylatest Demo Project
 
 This is an example of Sphinx_/Pylatest_ project.
 
+The html builds are available at https://marbu.gitlab.io/pylatest-demo
+
 About Pylatest
 --------------
 
