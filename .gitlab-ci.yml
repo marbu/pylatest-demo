@@ -7,3 +7,15 @@ py36:
   script:
     - pip install -r requirements.txt
     - sphinx-build -M linkcheck . _build
+
+pages:
+  image: python:3.6
+  script:
+    - pip install -r requirements.txt
+    - sphinx-build -M html . _build
+    - mv _build/html/ public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
