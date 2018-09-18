@@ -8,6 +8,8 @@ Pylatest Demo Project
 
 This is an example of Sphinx_/Pylatest_ project.
 
+Git repository with source code is available at
+https://gitlab.com/marbu/pylatest-demo
 
 Test Cases
 ----------
