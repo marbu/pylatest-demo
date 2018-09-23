@@ -2,7 +2,7 @@ stages:
   - test
   - deploy
 
-py36:
+linkcheck:
   image: python:3.6
   stage: test
   script:
